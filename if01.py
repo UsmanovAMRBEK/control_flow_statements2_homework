@@ -9,8 +9,8 @@ def main(a,b,c):
         int: return answer.
     """
     max=a
-    if b>max:
+    if b>=max:
         max=b
-    elif c>max:
+    elif c>=max:
         max=c
     return max

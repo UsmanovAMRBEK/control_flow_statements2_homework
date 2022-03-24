@@ -8,4 +8,9 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    max=a
+    if b>max:
+        max=b
+    elif c>max:
+        max=c
+    return max

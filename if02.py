@@ -9,8 +9,8 @@ def main(a,b,c):
         int: return answer.
     """
     min=a
-    if b<min:
+    if b<=min:
         min=b
-    elif c<min:
+    elif c<=min:
         min=c
     return min

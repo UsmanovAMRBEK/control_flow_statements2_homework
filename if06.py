@@ -6,4 +6,26 @@ def main(n):
     Returns:
         int: return answer.
     """
-    return
+    max=n%10
+    n=n//10
+    if n%10>max:
+        max=n%10
+        index=1
+    n=n//10
+    if n%10>max:
+        max=n%10
+        index=2
+    n=n//10
+    if n%10>max:
+        max=n%10
+        index=3
+    n=n//10
+    if n%10>max:
+        max=n%10
+        index=4
+    n=n//10
+    if n%10>max:
+        max=n%10
+        index=5
+    
+    return index
